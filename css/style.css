@@ -1,0 +1,91 @@
+a {
+    color: rgb(0, 131, 192);
+}
+
+.link-page {
+    border: 2px solid rgb(0, 131, 192);
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.link-page p {
+    color: black;
+}
+
+.link-page:hover {
+    background-color: rgba(124, 213, 255, 0.453);
+}
+
+header {
+    background-color: rgb(0, 123, 255);
+    padding: 40px 32px;
+    height: 400px;
+    max-width: 1200px;
+    margin: auto;
+    background-image: url(../img/headerBGTown.png);
+    background-size: cover;
+    background-position: center center;
+    color: white;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(183, 182, 182);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+section {
+    background-color: white;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 32px;
+
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 32px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+input {
+    width: 100%;
+    max-width: 240px;
+    padding: 8px;
+    border: 1px solid rgb(0, 131, 192);
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0 0 10px;
+
+}
+
+button {
+    padding: 8px;
+    border: 1px solid rgb(0, 131, 192);
+    background-color: rgb(0, 131, 192);
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    transition: 0.5s;
+    cursor: pointer;
+    margin: 0 auto 10px auto;
+    display: inline-block;
+    width: 100%;
+    max-width: 120px;
+    text-align: center
+
+}
+
+button:hover {
+    background-color: white;
+    color: rgb(0, 131, 192);
+
+}
+
+img {
+    width: 100%;
+    max-width: 800px;
+}
